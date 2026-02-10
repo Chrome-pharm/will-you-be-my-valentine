@@ -45,7 +45,7 @@ export default function Page() {
         <>
           <img
             className="h-[200px]"
-            src="https://gifdb.com/images/high/cute-love-bear-roses-ou7zho5oosxnpo6k.gif"
+            src="https://tenor.com/view/cute-bear-with-rose-i-love-you-gif-20609796"
           />
           <h1 className="my-4 text-4xl">Будешь моей Валентинкой?</h1>
           <div className="flex items-center">
