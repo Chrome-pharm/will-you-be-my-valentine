@@ -12,14 +12,13 @@ export default function Page() {
 
   const getNoButtonText = () => {
     const phrases = [
-      "Не хотю",
-      "Теребоньк)",
+      "Кусь)",
       "Максим лох",
       "За что ты так со мной, Звездочка?",
       "А если я подарок подарю?",
       "Мороженко куплю!",
       "Ну пожалуйстааааа :*(",
-      "Тебя учили что нет говорить не вежливо!",
+      "Тебя учили что говорить нет не вежливо!",
       "Я хочу поиздеваться над Максимкой",
       "КУСЬ! (убить Максима)",
       "Вжух! (оживить максима)",
@@ -55,13 +54,13 @@ export default function Page() {
               style={{ fontSize: yesButtonSize }}
               onClick={() => setYesPressed(true)}
             >
-              Yes
+              Да
             </button>
             <button
               onClick={handleNoClick}
               className=" rounded bg-red-500 px-4 py-2 font-bold text-white hover:bg-red-700"
             >
-              {noCount === 0 ? "Ну давай, попробуй еще раз..." : getNoButtonText()}
+              {noCount === 0 ? "Не хотю)" : getNoButtonText()}
             </button>
           </div>
         </>
